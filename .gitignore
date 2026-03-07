@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 app.db
 .envrc
+.env
+*.env
+node_modules/
+.DS_Store

@@ -1,0 +1,369 @@
+[
+  {
+    "name": "Autolauncher Pro",
+    "description": "Push Autolauncher to GitHub; Initialize Git repository",
+    "status": "planned",
+    "tech_stack": [],
+    "requirements": [],
+    "related_sessions": [
+      "devin-e478e884b69c4322807cdc35df31df42"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "AutoLauncher Pro",
+    "description": "Implement AI-powered automation for launching applications; Create an efficient application launcher for managing multiple applications; Provide a centralized dashboard for user management and analytics; Integrate with App Store Connect and Google Play Console for automated app publishing",
+    "status": "deployed",
+    "tech_stack": [
+      "AWS",
+      "Node.js",
+      "PostgreSQL",
+      "React",
+      "TensorFlow"
+    ],
+    "requirements": [
+      "Centralized dashboard for app management",
+      "User onboarding and help documentation",
+      "One-click launch feature",
+      "Integration with major platforms (App Store, Google Play)"
+    ],
+    "related_sessions": [
+      "devin-1d192d6d085a47108e238ae77976a2c0"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Family Task Tracker",
+    "description": "Implement a point-based reward system to encourage completion of chores; Develop a centralized platform to assign, track, and score household tasks among family members",
+    "status": "deployed",
+    "tech_stack": [
+      "React (Vite)",
+      "Supabase (PostgreSQL + Auth + Realtime)",
+      "Web Speech API for voice input"
+    ],
+    "requirements": [
+      "Family Member Profiles",
+      "Progress Tracking Dashboard",
+      "Task Assignment and Management",
+      "Point-based Reward System",
+      "Notification and Reminder System"
+    ],
+    "related_sessions": [
+      "devin-08308ab27f4a49ed80665fddc1c46cd2"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "monstrum",
+    "description": "Add functionality for comments/notes on ideas; Implement AI suggestions for improving idea ratings; Fix bugs related to idea recording and synthesis",
+    "status": "deployed",
+    "tech_stack": [
+      "Claude AI",
+      "OpenAI Whisper",
+      "Supabase"
+    ],
+    "requirements": [
+      "AI-generated improvement suggestions",
+      "Background audio upload"
+    ],
+    "related_sessions": [
+      "devin-8235b24861934645a70bdd595a2e4bba"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Hover Shard",
+    "description": "Implement physics for stabilization and rotation; Design a scoring system based on stability and survival time; Create a minimalist 2D game with a stabilizing mechanic",
+    "status": "deployed",
+    "tech_stack": [
+      "DeviceOrientation API",
+      "HTML5",
+      "JavaScript"
+    ],
+    "requirements": [
+      "Smooth camera",
+      "No buttons",
+      "Smooth input",
+      "Clean UI showing only score"
+    ],
+    "related_sessions": [
+      "devin-bcb617456ceb45cdaf580f36b7596955"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "HELIXA",
+    "description": "Build a lightweight web-based application for capturing business or product ideas via voice input.; Implement features for scoring business potential and estimating valuation scenarios.; Automatically transform ideas into structured, evaluated, build-ready concepts.",
+    "status": "deployed",
+    "tech_stack": [
+      "FastAPI",
+      "Next.js",
+      "OpenAI API",
+      "SQLite",
+      "Supabase",
+      "Tailwind"
+    ],
+    "requirements": [
+      "Automatically transcribe voice input.",
+      "Record an idea using voice.",
+      "Convert input into a structured concept.",
+      "Score business potential and estimate valuation scenarios.",
+      "Store and organize all ideas.",
+      "Generate a build-ready product specification."
+    ],
+    "related_sessions": [
+      "devin-ef03254abe0542ea9db9a0a71f0e5e2d"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Voice Idea Capture & Scoring System",
+    "description": "Automatically transform ideas into structured, evaluated, build-ready concepts; Build a lightweight web-based application that allows capturing business or product ideas via voice input",
+    "status": "in-progress",
+    "tech_stack": [
+      "OpenAI API",
+      "Supabase"
+    ],
+    "requirements": [
+      "Store and organize all ideas",
+      "Record an idea using voice",
+      "Automatically transcribe it",
+      "Generate a build-ready product specification",
+      "Estimate possible valuation scenarios",
+      "Convert it into a structured concept",
+      "Score its business potential"
+    ],
+    "related_sessions": [
+      "devin-1dbd3b0c37c64607a94f5b30fca2876f"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Plasma Disk – Skill Survival",
+    "description": "Transform Plasma Disk from a tech demo into a real game with increasing difficulty and motivation to play.",
+    "status": "deployed",
+    "tech_stack": [
+      "Canvas",
+      "HTML5"
+    ],
+    "requirements": [],
+    "related_sessions": [
+      "devin-02c3af24fa1747bdbe0c968517088fc5"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "jednoducha emulacna hra raketka asteroidy",
+    "description": "add boss levels with asteroid swarms; allow weapon pickups from colored asteroids; implement scoring system for destroying asteroids; create a simple emulation game where a rocket shoots asteroids; include weapon upgrades visible on the rocket",
+    "status": "deployed",
+    "tech_stack": [
+      "HTML5",
+      "JavaScript",
+      "Web Audio API"
+    ],
+    "requirements": [
+      "colored asteroids with weapon pickups",
+      "high score persistence",
+      "5 lives and game over screen with statistics",
+      "boss waves every 5 levels",
+      "8 weapon types with visual changes"
+    ],
+    "related_sessions": [
+      "devin-d93b74a2e05f4836a163097409eb0ada"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Spojiť body s reakčným časom",
+    "description": "Zabezpečiť vizuálne pekný dizajn; Implementovať rôzne obtiažnosti; Pridať funkciu na restartovanie hry; Vytvoriť jednoduchú hru na meranie reakčného času",
+    "status": "deployed",
+    "tech_stack": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "requirements": [
+      "Možnosť zvoliť obtiažnosť",
+      "Hodnotenie výkonu hráča",
+      "Meranie reakčného času",
+      "Zobrazenie dvoch bodov na obrazovke"
+    ],
+    "related_sessions": [
+      "devin-0ae0d2b08532489d99b8e4374761a9a6"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Spin Control Reaction Game",
+    "description": "Create a simple reaction game based on maintaining rotation within a stable range; Prepare for deployment on the Apple App Store; Implement mobile-friendly controls; Add visual and audio enhancements",
+    "status": "deployed",
+    "tech_stack": [
+      "CSS",
+      "Capacitor",
+      "HTML",
+      "JavaScript",
+      "Web Audio API"
+    ],
+    "requirements": [
+      "Access to a Mac with Xcode for building the iOS app",
+      "Apple Developer account for publishing"
+    ],
+    "related_sessions": [
+      "devin-4c2603e6de774c46b42a3192deef4c05"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "plysiak-hra",
+    "description": "Create a game where users can select a plush toy and perform various destruction actions on it.",
+    "status": "deployed",
+    "tech_stack": [],
+    "requirements": [
+      "Ability to select a plush toy from a rotating carousel.",
+      "Implement swipe actions for different types of destruction."
+    ],
+    "related_sessions": [
+      "devin-abc7bdf330e54dbd8382a481d7a19a69"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Arrow Swiper - Fidget Game",
+    "description": "Add features like difficulty levels and sound effects; Make it visually pleasing and addictive; Measure reaction time and accuracy; Prepare for App Store deployment; Create a simple swipe reaction game",
+    "status": "deployed",
+    "tech_stack": [
+      "CSS",
+      "Capacitor",
+      "HTML",
+      "JavaScript",
+      "Web Audio API"
+    ],
+    "requirements": [
+      "Apple Developer Account",
+      "Mac with Xcode for iOS build",
+      "In-App Purchase setup for SUPERHARD level"
+    ],
+    "related_sessions": [
+      "devin-ae84dc3ab023492a8f124243bf5b0998"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "App Store Analyzer",
+    "description": "Identify growing apps with low competition; Provide a dashboard with opportunities for solo developers; Create a simple app store application analyzer",
+    "status": "deployed",
+    "tech_stack": [
+      "FastAPI",
+      "PWA",
+      "RSS feeds",
+      "iTunes API"
+    ],
+    "requirements": [
+      "Scan App Store for opportunities",
+      "Filter apps based on growth, competition, and buildability",
+      "Provide detailed analysis for each app"
+    ],
+    "related_sessions": [
+      "devin-de1460bfb9574a8e8baa9b05e22285f4"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "DomainFinder",
+    "description": "Evaluate domain prices and monitor expiration dates of top domains; Create a mobile-optimized domain finder application; Automate the purchase of expired domains; Allow users to select TLD, character length, and find available meaningful domains",
+    "status": "deployed",
+    "tech_stack": [],
+    "requirements": [
+      "Monitoring of expiring domains with alerts",
+      "Search functionality for domains based on TLD and character length",
+      "Automated purchasing system for expired domains",
+      "Mobile optimization"
+    ],
+    "related_sessions": [
+      "devin-0c1118efb8a342608cc6206e70597ab4"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "autonomne ovladanie pocitaca",
+    "description": "vytvorit AI-powered desktop automation appku; posielať reporty o aktivite; sledovať správanie a nahradiť používateľa; autonomne ovládať počítač na základe meta-promptov; mať frontend na správu a ladenie meta-promptov",
+    "status": "deployed",
+    "tech_stack": [
+      "FastAPI",
+      "OpenAI API",
+      "React",
+      "SQLite",
+      "pyautogui"
+    ],
+    "requirements": [
+      "report generation",
+      "meta-prompt management",
+      "agent control",
+      "activity dashboard"
+    ],
+    "related_sessions": [
+      "devin-3afa29d1141e4e47a7de4264383c63e8"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "EUGIP",
+    "description": "Develop a fully automated platform for identifying, assessing, generating applications, and managing the lifecycle of EU grants.; Analyze the specification document for EUGIP and provide comments and cost estimates.",
+    "status": "deployed",
+    "tech_stack": [
+      "FastAPI",
+      "Kubernetes",
+      "LLM API (Anthropic Claude / OpenAI GPT-4)",
+      "PostgreSQL",
+      "React",
+      "Scraping tools"
+    ],
+    "requirements": [
+      "The system should scan EU portals for available grants.",
+      "It should present options and moderate user input to evaluate eligibility.",
+      "AI should generate and submit applications on behalf of the user."
+    ],
+    "related_sessions": [
+      "devin-96605085851d4f459c0d301c116419e2"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  },
+  {
+    "name": "Byly.io",
+    "description": "Rewrite the technical specification to address gaps and improve structure; Analyze the technical specification of MONSTRUM OS and both repositories; Prepare a plan to achieve military-grade quality and Apple-level UX/UI",
+    "status": "deployed",
+    "tech_stack": [
+      "FastAPI",
+      "React",
+      "Tailwind CSS"
+    ],
+    "requirements": [
+      "Investor access zone with KYC/AML onboarding",
+      "Apple-level UX/UI",
+      "Military-grade security features",
+      "White-label automated sales platform"
+    ],
+    "related_sessions": [
+      "devin-990fe7f60d404b9bab8c80d04c2fb65e"
+    ],
+    "session_count": 1,
+    "priority": "low"
+  }
+]
