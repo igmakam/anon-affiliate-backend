@@ -8,7 +8,7 @@
     "snapshot_id": "snapshot-deb599c99ae0467f9b7417ca15625154",
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "working"
@@ -22,7 +22,7 @@
     "snapshot_id": "snapshot-deb599c99ae0467f9b7417ca15625154",
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "blocked"
@@ -36,7 +36,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -50,7 +50,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "blocked"
@@ -64,7 +64,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "blocked"
@@ -78,7 +78,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": {
       "url": "https://github.com/igmakam/monstrum/pull/3"
     },
@@ -94,7 +94,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -108,7 +108,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -122,7 +122,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -136,7 +136,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -150,7 +150,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -164,7 +164,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -178,7 +178,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -192,7 +192,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -206,7 +206,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -220,7 +220,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": {
       "url": "https://github.com/igmakam/appstore-analyzer/pull/1"
     },
@@ -236,7 +236,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -250,7 +250,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": null,
     "structured_output": null,
     "status_enum": "finished"
@@ -266,7 +266,7 @@
     "tags": [
       "agent-preview:devin-fast-opus"
     ],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": {
       "url": "https://github.com/igmakam/monstrum/pull/2"
     },
@@ -282,7 +282,7 @@
     "snapshot_id": null,
     "playbook_id": null,
     "tags": [],
-    "requesting_user_email": "marcel.kamon@gmail.com",
+    "requesting_user_email": "[REDACTED]",
     "pull_request": {
       "url": "https://github.com/igmakam/monstrum/pull/4"
     },

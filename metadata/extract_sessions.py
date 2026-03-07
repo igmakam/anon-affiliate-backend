@@ -16,7 +16,7 @@ from openai import OpenAI
 # --- Config ---
 DEVIN_API_KEY = os.environ.get("DEVIN_API_KEY")
 OPENAI_API_KEY = os.environ.get("Open_AI_K6")
-OUTPUT_DIR = "/home/ubuntu/autolauncher-pro/metadata"
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", os.path.dirname(os.path.abspath(__file__)))
 DEVIN_API_BASE = "https://api.devin.ai/v1"
 
 if not DEVIN_API_KEY:
