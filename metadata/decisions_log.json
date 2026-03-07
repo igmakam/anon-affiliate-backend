@@ -1,0 +1,387 @@
+[
+  {
+    "date": "2026-02-21T12:16:17.240702Z",
+    "session_id": "devin-990fe7f60d404b9bab8c80d04c2fb65e",
+    "project": "Byly.io",
+    "decision": "Transition from Flask to FastAPI for asynchronous capabilities",
+    "context": "The technical specification was successfully rewritten and presented in a professional format. User was satisfied with the updates and requested further development phases."
+  },
+  {
+    "date": "2026-02-21T12:16:17.240702Z",
+    "session_id": "devin-990fe7f60d404b9bab8c80d04c2fb65e",
+    "project": "Byly.io",
+    "decision": "Change from a monolith to a modular monolith architecture",
+    "context": "The technical specification was successfully rewritten and presented in a professional format. User was satisfied with the updates and requested further development phases."
+  },
+  {
+    "date": "2026-02-21T12:16:17.240702Z",
+    "session_id": "devin-990fe7f60d404b9bab8c80d04c2fb65e",
+    "project": "Byly.io",
+    "decision": "Reduce the number of modules from 24 to 16 to eliminate duplicities and merge related functionalities",
+    "context": "The technical specification was successfully rewritten and presented in a professional format. User was satisfied with the updates and requested further development phases."
+  },
+  {
+    "date": "2026-02-23T10:14:33.935203Z",
+    "session_id": "devin-96605085851d4f459c0d301c116419e2",
+    "project": "EUGIP",
+    "decision": "Remove dependency on Palantir and use a custom tech stack.",
+    "context": "The platform was developed and deployed successfully, with a functioning backend and frontend. Initial data loading from EU portals is in progress."
+  },
+  {
+    "date": "2026-02-23T10:14:33.935203Z",
+    "session_id": "devin-96605085851d4f459c0d301c116419e2",
+    "project": "EUGIP",
+    "decision": "Focus on a full scope implementation rather than an MVP.",
+    "context": "The platform was developed and deployed successfully, with a functioning backend and frontend. Initial data loading from EU portals is in progress."
+  },
+  {
+    "date": "2026-02-23T10:14:33.935203Z",
+    "session_id": "devin-96605085851d4f459c0d301c116419e2",
+    "project": "EUGIP",
+    "decision": "User will manage ML models and grant expertise.",
+    "context": "The platform was developed and deployed successfully, with a functioning backend and frontend. Initial data loading from EU portals is in progress."
+  },
+  {
+    "date": "2026-02-23T12:29:14.555619Z",
+    "session_id": "devin-3afa29d1141e4e47a7de4264383c63e8",
+    "project": "autonomne ovladanie pocitaca",
+    "decision": "použiť FastAPI backend + React frontend",
+    "context": "appka bola hotová a nasadená, frontend a backend fungujú, agent je pripravený na integráciu"
+  },
+  {
+    "date": "2026-02-23T12:29:14.555619Z",
+    "session_id": "devin-3afa29d1141e4e47a7de4264383c63e8",
+    "project": "autonomne ovladanie pocitaca",
+    "decision": "využiť screenshots + LLM (OpenAI API) na rozhodovanie",
+    "context": "appka bola hotová a nasadená, frontend a backend fungujú, agent je pripravený na integráciu"
+  },
+  {
+    "date": "2026-02-23T12:29:14.555619Z",
+    "session_id": "devin-3afa29d1141e4e47a7de4264383c63e8",
+    "project": "autonomne ovladanie pocitaca",
+    "decision": "použiť pyautogui na ovládanie myši/klávesnice",
+    "context": "appka bola hotová a nasadená, frontend a backend fungujú, agent je pripravený na integráciu"
+  },
+  {
+    "date": "2026-02-24T05:03:49.791837Z",
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "project": "DomainFinder",
+    "decision": "Implemented real DNS verification for domain availability",
+    "context": "The application was developed, deployed, and tested successfully with real-time domain availability checks and user feedback incorporated."
+  },
+  {
+    "date": "2026-02-24T05:03:49.791837Z",
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "project": "DomainFinder",
+    "decision": "Added WHOIS verification for domains marked as free",
+    "context": "The application was developed, deployed, and tested successfully with real-time domain availability checks and user feedback incorporated."
+  },
+  {
+    "date": "2026-02-24T05:03:49.791837Z",
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "project": "DomainFinder",
+    "decision": "Developed a two-phase verification system (DNS + WHOIS)",
+    "context": "The application was developed, deployed, and tested successfully with real-time domain availability checks and user feedback incorporated."
+  },
+  {
+    "date": "2026-02-24T05:03:49.791837Z",
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "project": "DomainFinder",
+    "decision": "Improved domain generation for unique brandable names",
+    "context": "The application was developed, deployed, and tested successfully with real-time domain availability checks and user feedback incorporated."
+  },
+  {
+    "date": "2026-02-25T15:44:30.535187Z",
+    "session_id": "devin-de1460bfb9574a8e8baa9b05e22285f4",
+    "project": "App Store Analyzer",
+    "decision": "Built a web app with FastAPI backend and dashboard",
+    "context": "The app was successfully developed, deployed, and tested with all requested features implemented."
+  },
+  {
+    "date": "2026-02-25T15:44:30.535187Z",
+    "session_id": "devin-de1460bfb9574a8e8baa9b05e22285f4",
+    "project": "App Store Analyzer",
+    "decision": "Implemented a scoring model to evaluate apps",
+    "context": "The app was successfully developed, deployed, and tested with all requested features implemented."
+  },
+  {
+    "date": "2026-02-25T15:44:30.535187Z",
+    "session_id": "devin-de1460bfb9574a8e8baa9b05e22285f4",
+    "project": "App Store Analyzer",
+    "decision": "Added a mobile version (PWA) with a Build Tracker",
+    "context": "The app was successfully developed, deployed, and tested with all requested features implemented."
+  },
+  {
+    "date": "2026-02-27T18:34:01.444100Z",
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "project": "Arrow Swiper - Fidget Game",
+    "decision": "Implemented a payment gate for the SUPERHARD level",
+    "context": "The game was completed, deployed, and tested successfully with all requested features implemented."
+  },
+  {
+    "date": "2026-02-27T18:34:01.444100Z",
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "project": "Arrow Swiper - Fidget Game",
+    "decision": "Used Web Audio API for music generation",
+    "context": "The game was completed, deployed, and tested successfully with all requested features implemented."
+  },
+  {
+    "date": "2026-02-27T18:34:01.444100Z",
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "project": "Arrow Swiper - Fidget Game",
+    "decision": "Configured Capacitor for iOS build",
+    "context": "The game was completed, deployed, and tested successfully with all requested features implemented."
+  },
+  {
+    "date": "2026-02-27T20:58:02.541096Z",
+    "session_id": "devin-abc7bdf330e54dbd8382a481d7a19a69",
+    "project": "plysiak-hra",
+    "decision": "Use realistic images of plush toys from Unsplash instead of cartoonish CSS characters.",
+    "context": "The game was completed, deployed, and tested successfully with all functionalities working as intended. User feedback was incorporated into the design."
+  },
+  {
+    "date": "2026-02-27T20:58:02.541096Z",
+    "session_id": "devin-abc7bdf330e54dbd8382a481d7a19a69",
+    "project": "plysiak-hra",
+    "decision": "Implement multi-phase animations for destruction effects to enhance realism.",
+    "context": "The game was completed, deployed, and tested successfully with all functionalities working as intended. User feedback was incorporated into the design."
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "decision": "Built the game as a standalone web app using HTML/CSS/JS",
+    "context": "The game was successfully developed, deployed, and visually enhanced according to user feedback. All requested features were implemented and tested."
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "decision": "Implemented touch controls for mobile devices",
+    "context": "The game was successfully developed, deployed, and visually enhanced according to user feedback. All requested features were implemented and tested."
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "decision": "Added progressive difficulty mechanics",
+    "context": "The game was successfully developed, deployed, and visually enhanced according to user feedback. All requested features were implemented and tested."
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "decision": "Used Web Audio API for ambient music",
+    "context": "The game was successfully developed, deployed, and visually enhanced according to user feedback. All requested features were implemented and tested."
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "decision": "Decided to use Capacitor for wrapping the web app into a native iOS app",
+    "context": "The game was successfully developed, deployed, and visually enhanced according to user feedback. All requested features were implemented and tested."
+  },
+  {
+    "date": "2026-03-01T20:06:52.650659Z",
+    "session_id": "devin-0ae0d2b08532489d99b8e4374761a9a6",
+    "project": "Spojiť body s reakčným časom",
+    "decision": "Hra bude mobilná webová aplikácia",
+    "context": "Hra bola úspešne dokončená a nasadená, vrátane všetkých požiadaviek a vylepšení."
+  },
+  {
+    "date": "2026-03-01T20:06:52.650659Z",
+    "session_id": "devin-0ae0d2b08532489d99b8e4374761a9a6",
+    "project": "Spojiť body s reakčným časom",
+    "decision": "Použitie drag & drop mechaniky na prepojenie bodov",
+    "context": "Hra bola úspešne dokončená a nasadená, vrátane všetkých požiadaviek a vylepšení."
+  },
+  {
+    "date": "2026-03-01T20:06:52.650659Z",
+    "session_id": "devin-0ae0d2b08532489d99b8e4374761a9a6",
+    "project": "Spojiť body s reakčným časom",
+    "decision": "Zavedenie progresívnej obtiažnosti",
+    "context": "Hra bola úspešne dokončená a nasadená, vrátane všetkých požiadaviek a vylepšení."
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "decision": "used HTML5 Canvas for game development",
+    "context": "the game was completed, deployed, and tested successfully with all requested features implemented"
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "decision": "implemented auto-shoot feature",
+    "context": "the game was completed, deployed, and tested successfully with all requested features implemented"
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "decision": "added a combo system and kill-based level progression",
+    "context": "the game was completed, deployed, and tested successfully with all requested features implemented"
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "decision": "incorporated sound effects using Web Audio API",
+    "context": "the game was completed, deployed, and tested successfully with all requested features implemented"
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "decision": "created multiple difficulty levels (Easy, Medium, Hard)",
+    "context": "the game was completed, deployed, and tested successfully with all requested features implemented"
+  },
+  {
+    "date": "2026-03-01T20:37:10.716470Z",
+    "session_id": "devin-02c3af24fa1747bdbe0c968517088fc5",
+    "project": "Plasma Disk – Skill Survival",
+    "decision": "Built the game as a polished HTML5 Canvas game with boost/swipe controls, stability-based scoring, multiplier system, procedural difficulty scaling through 4 phases, anomalies, risk zones, and game over/restart flow.",
+    "context": "The game was updated with robotic enemies, faster asteroids, and a difficulty selection feature. It was tested on three levels (Easy, Medium, Hard) both locally and on the production URL."
+  },
+  {
+    "date": "2026-03-02T08:14:17.906273Z",
+    "session_id": "devin-1dbd3b0c37c64607a94f5b30fca2876f",
+    "project": "Voice Idea Capture & Scoring System",
+    "decision": "The app will be developed as a Progressive Web App (PWA)",
+    "context": "The session started with the build task, but the user did not provide Supabase credentials, which halted progress."
+  },
+  {
+    "date": "2026-03-02T08:14:17.906273Z",
+    "session_id": "devin-1dbd3b0c37c64607a94f5b30fca2876f",
+    "project": "Voice Idea Capture & Scoring System",
+    "decision": "The system will use Supabase for database operations",
+    "context": "The session started with the build task, but the user did not provide Supabase credentials, which halted progress."
+  },
+  {
+    "date": "2026-03-02T08:14:30.379613Z",
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "project": "HELIXA",
+    "decision": "Used Next.js + Tailwind for frontend development.",
+    "context": "The application was successfully built and deployed with all core features functioning, including voice capture, idea structuring, scoring, and valuation. User feedback was incorporated into the final product."
+  },
+  {
+    "date": "2026-03-02T08:14:30.379613Z",
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "project": "HELIXA",
+    "decision": "Implemented Supabase for database storage.",
+    "context": "The application was successfully built and deployed with all core features functioning, including voice capture, idea structuring, scoring, and valuation. User feedback was incorporated into the final product."
+  },
+  {
+    "date": "2026-03-02T08:14:30.379613Z",
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "project": "HELIXA",
+    "decision": "Utilized OpenAI API (Whisper + GPT) for voice processing and AI structuring.",
+    "context": "The application was successfully built and deployed with all core features functioning, including voice capture, idea structuring, scoring, and valuation. User feedback was incorporated into the final product."
+  },
+  {
+    "date": "2026-03-02T08:14:30.379613Z",
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "project": "HELIXA",
+    "decision": "Restructured the app to be fully client-side to avoid backend server requirements.",
+    "context": "The application was successfully built and deployed with all core features functioning, including voice capture, idea structuring, scoring, and valuation. User feedback was incorporated into the final product."
+  },
+  {
+    "date": "2026-03-03T06:26:08.062073Z",
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "project": "Hover Shard",
+    "decision": "Built the game using HTML5 Canvas",
+    "context": "Game was successfully built, tested, and deployed with all requested features and corrections implemented."
+  },
+  {
+    "date": "2026-03-03T06:26:08.062073Z",
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "project": "Hover Shard",
+    "decision": "Implemented tilt controls for mobile devices",
+    "context": "Game was successfully built, tested, and deployed with all requested features and corrections implemented."
+  },
+  {
+    "date": "2026-03-03T06:26:08.062073Z",
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "project": "Hover Shard",
+    "decision": "Added procedural asteroid generation and collision mechanics",
+    "context": "Game was successfully built, tested, and deployed with all requested features and corrections implemented."
+  },
+  {
+    "date": "2026-03-03T17:04:50.663594Z",
+    "session_id": "devin-8235b24861934645a70bdd595a2e4bba",
+    "project": "monstrum",
+    "decision": "Implemented non-blocking audio upload to prevent app freezing",
+    "context": "Bugs were fixed, new features were implemented, and the PR was created for deployment."
+  },
+  {
+    "date": "2026-03-03T17:04:50.663594Z",
+    "session_id": "devin-8235b24861934645a70bdd595a2e4bba",
+    "project": "monstrum",
+    "decision": "Added AI suggestions feature with impact estimates on ratings",
+    "context": "Bugs were fixed, new features were implemented, and the PR was created for deployment."
+  },
+  {
+    "date": "2026-03-03T19:55:58.866444Z",
+    "session_id": "devin-08308ab27f4a49ed80665fddc1c46cd2",
+    "project": "Family Task Tracker",
+    "decision": "Using Supabase for backend and database instead of a separate backend server",
+    "context": "The Family Task Tracker app was built, tested, and deployed successfully. User login was simplified to nick entry."
+  },
+  {
+    "date": "2026-03-03T19:55:58.866444Z",
+    "session_id": "devin-08308ab27f4a49ed80665fddc1c46cd2",
+    "project": "Family Task Tracker",
+    "decision": "Frontend will be built with React (Vite)",
+    "context": "The Family Task Tracker app was built, tested, and deployed successfully. User login was simplified to nick entry."
+  },
+  {
+    "date": "2026-03-03T19:55:58.866444Z",
+    "session_id": "devin-08308ab27f4a49ed80665fddc1c46cd2",
+    "project": "Family Task Tracker",
+    "decision": "Deployment will be done using Supabase cloud services",
+    "context": "The Family Task Tracker app was built, tested, and deployed successfully. User login was simplified to nick entry."
+  },
+  {
+    "date": "2026-03-04T10:56:14.707789Z",
+    "session_id": "devin-1d192d6d085a47108e238ae77976a2c0",
+    "project": "AutoLauncher Pro",
+    "decision": "Transitioned from a basic app launcher to an AI-powered automation hub",
+    "context": "The app was built, tested, and deployed successfully with core features implemented. User feedback was incorporated to enhance automation capabilities."
+  },
+  {
+    "date": "2026-03-04T10:56:14.707789Z",
+    "session_id": "devin-1d192d6d085a47108e238ae77976a2c0",
+    "project": "AutoLauncher Pro",
+    "decision": "Decided to implement a questionnaire for personalized launch consulting",
+    "context": "The app was built, tested, and deployed successfully with core features implemented. User feedback was incorporated to enhance automation capabilities."
+  },
+  {
+    "date": "2026-03-04T10:56:14.707789Z",
+    "session_id": "devin-1d192d6d085a47108e238ae77976a2c0",
+    "project": "AutoLauncher Pro",
+    "decision": "Planned integration with App Store Connect API and Google Play Developer API",
+    "context": "The app was built, tested, and deployed successfully with core features implemented. User feedback was incorporated to enhance automation capabilities."
+  },
+  {
+    "date": "2026-03-07T12:49:15.476375Z",
+    "session_id": "devin-e478e884b69c4322807cdc35df31df42",
+    "project": "Autolauncher Pro",
+    "decision": "Check for existing .git directory before initializing",
+    "context": "The directory for the project does not exist on the machine, preventing the git init and push operation."
+  },
+  {
+    "date": "2026-03-07T12:49:15.476375Z",
+    "session_id": "devin-e478e884b69c4322807cdc35df31df42",
+    "project": "Autolauncher Pro",
+    "decision": "Create a .gitignore file based on project structure",
+    "context": "The directory for the project does not exist on the machine, preventing the git init and push operation."
+  },
+  {
+    "date": "2026-03-07T12:49:15.476375Z",
+    "session_id": "devin-e478e884b69c4322807cdc35df31df42",
+    "project": "Autolauncher Pro",
+    "decision": "Use GitHub CLI to create a new repository",
+    "context": "The directory for the project does not exist on the machine, preventing the git init and push operation."
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "session_id": "devin-825c399f9345415d9ec698369efc2ebb",
+    "date": "2026-03-07T13:01:40.422148Z",
+    "title": "extrakcia session metadata",
+    "project": "",
+    "goals": [],
+    "decisions": [],
+    "corrections": [],
+    "preferences": [],
+    "outcome": "",
+    "outcome_detail": "",
+    "tech_stack": [],
+    "app_requirements": [],
+    "patterns": [],
+    "status_enum": "working",
+    "pull_request": null
+  },
+  {
+    "project": "Autolauncher Pro",
+    "goals": [
+      "Initialize Git repository",
+      "Push Autolauncher to GitHub"
+    ],
+    "decisions": [
+      "Check for existing .git directory before initializing",
+      "Create a .gitignore file based on project structure",
+      "Use GitHub CLI to create a new repository"
+    ],
+    "corrections": [],
+    "preferences": [],
+    "outcome": "failed",
+    "outcome_detail": "The directory for the project does not exist on the machine, preventing the git init and push operation.",
+    "tech_stack": [],
+    "app_requirements": [],
+    "patterns": [],
+    "session_id": "devin-e478e884b69c4322807cdc35df31df42",
+    "date": "2026-03-07T12:49:15.476375Z",
+    "title": "Initialize Git repo and push Autolauncher to GitHub",
+    "status_enum": "blocked",
+    "pull_request": null
+  },
+  {
+    "project": "AutoLauncher Pro",
+    "goals": [
+      "Create an efficient application launcher for managing multiple applications",
+      "Implement AI-powered automation for launching applications",
+      "Provide a centralized dashboard for user management and analytics",
+      "Integrate with App Store Connect and Google Play Console for automated app publishing"
+    ],
+    "decisions": [
+      "Transitioned from a basic app launcher to an AI-powered automation hub",
+      "Decided to implement a questionnaire for personalized launch consulting",
+      "Planned integration with App Store Connect API and Google Play Developer API"
+    ],
+    "corrections": [
+      "User clarified that the app should have full control over the computer for automated app launches and integrations",
+      "User rejected the idea of manual consulting and emphasized the need for full automation"
+    ],
+    "preferences": [
+      "Tech stack: React for frontend, Node.js for backend, PostgreSQL for database, TensorFlow for AI features",
+      "User prefers a reliable and functional solution over a cheap one"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The app was built, tested, and deployed successfully with core features implemented. User feedback was incorporated to enhance automation capabilities.",
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "TensorFlow",
+      "AWS"
+    ],
+    "app_requirements": [
+      "Centralized dashboard for app management",
+      "One-click launch feature",
+      "Integration with major platforms (App Store, Google Play)",
+      "User onboarding and help documentation"
+    ],
+    "patterns": [
+      "User prefers automation and integration with existing developer tools",
+      "User emphasizes the need for a seamless experience with minimal manual intervention"
+    ],
+    "session_id": "devin-1d192d6d085a47108e238ae77976a2c0",
+    "date": "2026-03-04T10:56:14.707789Z",
+    "title": "APP/G store auto launcher",
+    "status_enum": "blocked",
+    "pull_request": null
+  },
+  {
+    "project": "Family Task Tracker",
+    "goals": [
+      "Develop a centralized platform to assign, track, and score household tasks among family members",
+      "Implement a point-based reward system to encourage completion of chores"
+    ],
+    "decisions": [
+      "Using Supabase for backend and database instead of a separate backend server",
+      "Frontend will be built with React (Vite)",
+      "Deployment will be done using Supabase cloud services"
+    ],
+    "corrections": [
+      "User corrected the login method for Supabase from email/password to GitHub authentication",
+      "User requested to remove email/password login requirement for the app"
+    ],
+    "preferences": [
+      "User prefers a modern design with a darker look",
+      "User expressed interest in voice input for task assignment"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The Family Task Tracker app was built, tested, and deployed successfully. User login was simplified to nick entry.",
+    "tech_stack": [
+      "React (Vite)",
+      "Supabase (PostgreSQL + Auth + Realtime)",
+      "Web Speech API for voice input"
+    ],
+    "app_requirements": [
+      "Task Assignment and Management",
+      "Progress Tracking Dashboard",
+      "Point-based Reward System",
+      "Family Member Profiles",
+      "Notification and Reminder System"
+    ],
+    "patterns": [
+      "User frequently requested changes to simplify user experience",
+      "User showed a preference for modern UI/UX design"
+    ],
+    "session_id": "devin-08308ab27f4a49ed80665fddc1c46cd2",
+    "date": "2026-03-03T19:55:58.866444Z",
+    "title": "Family Task Tracker Development",
+    "status_enum": "blocked",
+    "pull_request": null
+  },
+  {
+    "project": "monstrum",
+    "goals": [
+      "Fix bugs related to idea recording and synthesis",
+      "Add functionality for comments/notes on ideas",
+      "Implement AI suggestions for improving idea ratings"
+    ],
+    "decisions": [
+      "Implemented non-blocking audio upload to prevent app freezing",
+      "Added AI suggestions feature with impact estimates on ratings"
+    ],
+    "corrections": [],
+    "preferences": [],
+    "outcome": "success",
+    "outcome_detail": "Bugs were fixed, new features were implemented, and the PR was created for deployment.",
+    "tech_stack": [
+      "OpenAI Whisper",
+      "Claude AI",
+      "Supabase"
+    ],
+    "app_requirements": [
+      "Background audio upload",
+      "AI-generated improvement suggestions"
+    ],
+    "patterns": [],
+    "session_id": "devin-8235b24861934645a70bdd595a2e4bba",
+    "date": "2026-03-03T17:04:50.663594Z",
+    "title": "Idea recorder. - Helixa",
+    "status_enum": "finished",
+    "pull_request": {
+      "url": "https://github.com/igmakam/monstrum/pull/3"
+    }
+  },
+  {
+    "project": "Hover Shard",
+    "goals": [
+      "Create a minimalist 2D game with a stabilizing mechanic",
+      "Implement physics for stabilization and rotation",
+      "Design a scoring system based on stability and survival time"
+    ],
+    "decisions": [
+      "Built the game using HTML5 Canvas",
+      "Implemented tilt controls for mobile devices",
+      "Added procedural asteroid generation and collision mechanics"
+    ],
+    "corrections": [
+      "User requested removal of space bar control",
+      "User requested the crystal to be replaced with a rocket and added asteroids",
+      "User reported issues with the game not reflecting changes"
+    ],
+    "preferences": [
+      "User prefers mobile controls using accelerometer",
+      "User prefers a clean UI with minimal distractions"
+    ],
+    "outcome": "success",
+    "outcome_detail": "Game was successfully built, tested, and deployed with all requested features and corrections implemented.",
+    "tech_stack": [
+      "HTML5",
+      "JavaScript",
+      "DeviceOrientation API"
+    ],
+    "app_requirements": [
+      "Smooth camera",
+      "Smooth input",
+      "No buttons",
+      "Clean UI showing only score"
+    ],
+    "patterns": [
+      "User frequently requests changes to game mechanics",
+      "User prefers immediate feedback and updates on changes"
+    ],
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "date": "2026-03-03T06:26:08.062073Z",
+    "title": "Minimalistická 2D stabilizácia shardu",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "HELIXA",
+    "goals": [
+      "Build a lightweight web-based application for capturing business or product ideas via voice input.",
+      "Automatically transform ideas into structured, evaluated, build-ready concepts.",
+      "Implement features for scoring business potential and estimating valuation scenarios."
+    ],
+    "decisions": [
+      "Used Next.js + Tailwind for frontend development.",
+      "Implemented Supabase for database storage.",
+      "Utilized OpenAI API (Whisper + GPT) for voice processing and AI structuring.",
+      "Restructured the app to be fully client-side to avoid backend server requirements."
+    ],
+    "corrections": [
+      "User pointed out the need for a secure way to handle the OpenAI API key, which was initially required to be input by the user.",
+      "User expressed concerns about data loss when switching browsers due to localStorage limitations."
+    ],
+    "preferences": [
+      "User requested no use of Fly.io for deployment.",
+      "User preferred a fully client-side architecture with persistent data storage."
+    ],
+    "outcome": "success",
+    "outcome_detail": "The application was successfully built and deployed with all core features functioning, including voice capture, idea structuring, scoring, and valuation. User feedback was incorporated into the final product.",
+    "tech_stack": [
+      "Next.js",
+      "Tailwind",
+      "Supabase",
+      "OpenAI API",
+      "FastAPI",
+      "SQLite"
+    ],
+    "app_requirements": [
+      "Record an idea using voice.",
+      "Automatically transcribe voice input.",
+      "Convert input into a structured concept.",
+      "Score business potential and estimate valuation scenarios.",
+      "Generate a build-ready product specification.",
+      "Store and organize all ideas."
+    ],
+    "patterns": [
+      "User frequently requested additional features and improvements based on testing.",
+      "User provided feedback on the application's functionality and user experience."
+    ],
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "date": "2026-03-02T08:14:30.379613Z",
+    "title": "Helixa",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "Voice Idea Capture & Scoring System",
+    "goals": [
+      "Build a lightweight web-based application that allows capturing business or product ideas via voice input",
+      "Automatically transform ideas into structured, evaluated, build-ready concepts"
+    ],
+    "decisions": [
+      "The app will be developed as a Progressive Web App (PWA)",
+      "The system will use Supabase for database operations"
+    ],
+    "corrections": [],
+    "preferences": [
+      "User prefers to use an existing Supabase project if available"
+    ],
+    "outcome": "partial",
+    "outcome_detail": "The session started with the build task, but the user did not provide Supabase credentials, which halted progress.",
+    "tech_stack": [
+      "OpenAI API",
+      "Supabase"
+    ],
+    "app_requirements": [
+      "Record an idea using voice",
+      "Automatically transcribe it",
+      "Convert it into a structured concept",
+      "Score its business potential",
+      "Estimate possible valuation scenarios",
+      "Generate a build-ready product specification",
+      "Store and organize all ideas"
+    ],
+    "patterns": [],
+    "session_id": "devin-1dbd3b0c37c64607a94f5b30fca2876f",
+    "date": "2026-03-02T08:14:17.906273Z",
+    "title": "Voice Idea Capture System",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "Plasma Disk – Skill Survival",
+    "goals": [
+      "Transform Plasma Disk from a tech demo into a real game with increasing difficulty and motivation to play."
+    ],
+    "decisions": [
+      "Built the game as a polished HTML5 Canvas game with boost/swipe controls, stability-based scoring, multiplier system, procedural difficulty scaling through 4 phases, anomalies, risk zones, and game over/restart flow."
+    ],
+    "corrections": [
+      "User requested the addition of robotic enemies and faster asteroids, as well as a difficulty selection feature."
+    ],
+    "preferences": [],
+    "outcome": "success",
+    "outcome_detail": "The game was updated with robotic enemies, faster asteroids, and a difficulty selection feature. It was tested on three levels (Easy, Medium, Hard) both locally and on the production URL.",
+    "tech_stack": [
+      "HTML5",
+      "Canvas"
+    ],
+    "app_requirements": [],
+    "patterns": [],
+    "session_id": "devin-02c3af24fa1747bdbe0c968517088fc5",
+    "date": "2026-03-01T20:37:10.716470Z",
+    "title": "Plasma Disk skill survival",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "goals": [
+      "create a simple emulation game where a rocket shoots asteroids",
+      "implement scoring system for destroying asteroids",
+      "add boss levels with asteroid swarms",
+      "include weapon upgrades visible on the rocket",
+      "allow weapon pickups from colored asteroids"
+    ],
+    "decisions": [
+      "used HTML5 Canvas for game development",
+      "implemented auto-shoot feature",
+      "added a combo system and kill-based level progression",
+      "incorporated sound effects using Web Audio API",
+      "created multiple difficulty levels (Easy, Medium, Hard)"
+    ],
+    "corrections": [
+      "user requested that when hit, only 50% of weapon ability is lost instead of the entire weapon",
+      "user requested centered HUD for all text elements"
+    ],
+    "preferences": [
+      "user prefers polished graphics with pro-level aesthetics",
+      "user requested specific gameplay mechanics like faster asteroids and robotic enemies"
+    ],
+    "outcome": "success",
+    "outcome_detail": "the game was completed, deployed, and tested successfully with all requested features implemented",
+    "tech_stack": [
+      "HTML5",
+      "JavaScript",
+      "Web Audio API"
+    ],
+    "app_requirements": [
+      "8 weapon types with visual changes",
+      "colored asteroids with weapon pickups",
+      "boss waves every 5 levels",
+      "5 lives and game over screen with statistics",
+      "high score persistence"
+    ],
+    "patterns": [
+      "user frequently requests gameplay enhancements and visual improvements",
+      "user provides feedback on game mechanics and difficulty adjustments"
+    ],
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "date": "2026-03-01T20:12:22.607496Z",
+    "title": "jednoducha emulacna hra raketka asteroidy",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "Spojiť body s reakčným časom",
+    "goals": [
+      "Vytvoriť jednoduchú hru na meranie reakčného času",
+      "Zabezpečiť vizuálne pekný dizajn",
+      "Implementovať rôzne obtiažnosti",
+      "Pridať funkciu na restartovanie hry"
+    ],
+    "decisions": [
+      "Hra bude mobilná webová aplikácia",
+      "Použitie drag & drop mechaniky na prepojenie bodov",
+      "Zavedenie progresívnej obtiažnosti"
+    ],
+    "corrections": [
+      "Zmeny v dizajne na Apple iOS 2026 štýl",
+      "Zjemnenie hodnotenia reakčného času"
+    ],
+    "preferences": [
+      "Moderný dizajn s glassmorphism",
+      "Použitie Inter fontu",
+      "Minimalistický prístup k grafike"
+    ],
+    "outcome": "success",
+    "outcome_detail": "Hra bola úspešne dokončená a nasadená, vrátane všetkých požiadaviek a vylepšení.",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "app_requirements": [
+      "Zobrazenie dvoch bodov na obrazovke",
+      "Meranie reakčného času",
+      "Hodnotenie výkonu hráča",
+      "Možnosť zvoliť obtiažnosť"
+    ],
+    "patterns": [
+      "Požiadavky na vizuálne vylepšenia",
+      "Zmeny v herných mechanikách na zlepšenie zážitku"
+    ],
+    "session_id": "devin-0ae0d2b08532489d99b8e4374761a9a6",
+    "date": "2026-03-01T20:06:52.650659Z",
+    "title": "Spojiť body s reakčným časom",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "Spin Control Reaction Game",
+    "goals": [
+      "Create a simple reaction game based on maintaining rotation within a stable range",
+      "Implement mobile-friendly controls",
+      "Add visual and audio enhancements",
+      "Prepare for deployment on the Apple App Store"
+    ],
+    "decisions": [
+      "Built the game as a standalone web app using HTML/CSS/JS",
+      "Implemented touch controls for mobile devices",
+      "Added progressive difficulty mechanics",
+      "Used Web Audio API for ambient music",
+      "Decided to use Capacitor for wrapping the web app into a native iOS app"
+    ],
+    "corrections": [
+      "User requested changes to controls for mobile to be more intuitive",
+      "User wanted the safe zone to be centered on the gauge",
+      "User requested a countdown timer and progressive difficulty adjustments every 5 seconds",
+      "User asked for the danger bar to always be visible",
+      "User requested a more visually appealing design in line with Apple aesthetics"
+    ],
+    "preferences": [
+      "User preferred a clean, Apple-style color scheme",
+      "User requested relaxing background music",
+      "User wanted a visually appealing design with particles and glow effects"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The game was successfully developed, deployed, and visually enhanced according to user feedback. All requested features were implemented and tested.",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web Audio API",
+      "Capacitor"
+    ],
+    "app_requirements": [
+      "Apple Developer account for publishing",
+      "Access to a Mac with Xcode for building the iOS app"
+    ],
+    "patterns": [
+      "User provided iterative feedback throughout the development process",
+      "User expressed a desire for continuous improvement in gameplay and visuals"
+    ],
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "date": "2026-02-28T07:07:08.850632Z",
+    "title": "Spin Control Reaction Game",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "plysiak-hra",
+    "goals": [
+      "Create a game where users can select a plush toy and perform various destruction actions on it."
+    ],
+    "decisions": [
+      "Use realistic images of plush toys from Unsplash instead of cartoonish CSS characters.",
+      "Implement multi-phase animations for destruction effects to enhance realism."
+    ],
+    "corrections": [
+      "User requested the game to be in English and for the plush toys to look more realistic.",
+      "User criticized the initial destruction effects as being too basic and requested more dramatic effects."
+    ],
+    "preferences": [
+      "User prefers realistic visuals and animations over cartoonish styles.",
+      "User requested the game to be in English."
+    ],
+    "outcome": "success",
+    "outcome_detail": "The game was completed, deployed, and tested successfully with all functionalities working as intended. User feedback was incorporated into the design.",
+    "tech_stack": [],
+    "app_requirements": [
+      "Ability to select a plush toy from a rotating carousel.",
+      "Implement swipe actions for different types of destruction."
+    ],
+    "patterns": [
+      "User provided feedback on aesthetics and realism throughout the session.",
+      "User engaged in iterative testing and requested improvements based on testing outcomes."
+    ],
+    "session_id": "devin-abc7bdf330e54dbd8382a481d7a19a69",
+    "date": "2026-02-27T20:58:02.541096Z",
+    "title": "Vyber a utok na plusiakov",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "Arrow Swiper - Fidget Game",
+    "goals": [
+      "Create a simple swipe reaction game",
+      "Measure reaction time and accuracy",
+      "Make it visually pleasing and addictive",
+      "Add features like difficulty levels and sound effects",
+      "Prepare for App Store deployment"
+    ],
+    "decisions": [
+      "Implemented a payment gate for the SUPERHARD level",
+      "Used Web Audio API for music generation",
+      "Configured Capacitor for iOS build"
+    ],
+    "corrections": [
+      "User requested a fingerprint swipe effect to be added",
+      "User noted issues with music playback that needed fixing",
+      "User specified different reaction time limits based on difficulty"
+    ],
+    "preferences": [
+      "Retro Sega-style visuals",
+      "8-bit drum and bass music",
+      "Ninja-style visual effects",
+      "Dark/Light theme toggle"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The game was completed, deployed, and tested successfully with all requested features implemented.",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web Audio API",
+      "Capacitor"
+    ],
+    "app_requirements": [
+      "Apple Developer Account",
+      "Mac with Xcode for iOS build",
+      "In-App Purchase setup for SUPERHARD level"
+    ],
+    "patterns": [
+      "User frequently requested visual and audio enhancements",
+      "User provided feedback on gameplay mechanics and difficulty adjustments",
+      "User expressed interest in App Store deployment early in the process"
+    ],
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "date": "2026-02-27T18:34:01.444100Z",
+    "title": "simple swipe reaction game",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "App Store Analyzer",
+    "goals": [
+      "Create a simple app store application analyzer",
+      "Identify growing apps with low competition",
+      "Provide a dashboard with opportunities for solo developers"
+    ],
+    "decisions": [
+      "Built a web app with FastAPI backend and dashboard",
+      "Implemented a scoring model to evaluate apps",
+      "Added a mobile version (PWA) with a Build Tracker"
+    ],
+    "corrections": [
+      "User requested a simplified ticket system for tracking issues",
+      "User wanted the dashboard to show low-hanging fruit opportunities automatically"
+    ],
+    "preferences": [
+      "User prefers a focus on easily promotable apps",
+      "User wants a simple interface for tracking app development"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The app was successfully developed, deployed, and tested with all requested features implemented.",
+    "tech_stack": [
+      "FastAPI",
+      "PWA",
+      "iTunes API",
+      "RSS feeds"
+    ],
+    "app_requirements": [
+      "Scan App Store for opportunities",
+      "Filter apps based on growth, competition, and buildability",
+      "Provide detailed analysis for each app"
+    ],
+    "patterns": [
+      "User prefers a streamlined and simplified interface",
+      "User frequently requests features that enhance usability and promote ease of access"
+    ],
+    "session_id": "devin-de1460bfb9574a8e8baa9b05e22285f4",
+    "date": "2026-02-25T15:44:30.535187Z",
+    "title": "App store app analyzer",
+    "status_enum": "finished",
+    "pull_request": {
+      "url": "https://github.com/igmakam/appstore-analyzer/pull/1"
+    }
+  },
+  {
+    "project": "DomainFinder",
+    "goals": [
+      "Create a mobile-optimized domain finder application",
+      "Allow users to select TLD, character length, and find available meaningful domains",
+      "Evaluate domain prices and monitor expiration dates of top domains",
+      "Automate the purchase of expired domains"
+    ],
+    "decisions": [
+      "Implemented real DNS verification for domain availability",
+      "Added WHOIS verification for domains marked as free",
+      "Developed a two-phase verification system (DNS + WHOIS)",
+      "Improved domain generation for unique brandable names"
+    ],
+    "corrections": [
+      "User pointed out that domains offered were not actually available for sale, leading to the implementation of real WHOIS checks.",
+      "User noted inaccuracies in domain availability, prompting further testing and adjustments."
+    ],
+    "preferences": [
+      "User prefers direct purchase without intermediaries for domain registration",
+      "User expressed interest in automatic drop-catching for premium domains",
+      "User indicated a budget of 1000 Euros per month for domain purchases"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The application was developed, deployed, and tested successfully with real-time domain availability checks and user feedback incorporated.",
+    "tech_stack": [],
+    "app_requirements": [
+      "Mobile optimization",
+      "Search functionality for domains based on TLD and character length",
+      "Monitoring of expiring domains with alerts",
+      "Automated purchasing system for expired domains"
+    ],
+    "patterns": [
+      "User frequently requested improvements and corrections based on testing results",
+      "User expressed a desire for automation and efficiency in domain purchasing"
+    ],
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "date": "2026-02-24T05:03:49.791837Z",
+    "title": "DomainFinder",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "autonomne ovladanie pocitaca",
+    "goals": [
+      "vytvorit AI-powered desktop automation appku",
+      "autonomne ovládať počítač na základe meta-promptov",
+      "mať frontend na správu a ladenie meta-promptov",
+      "sledovať správanie a nahradiť používateľa",
+      "posielať reporty o aktivite"
+    ],
+    "decisions": [
+      "použiť FastAPI backend + React frontend",
+      "využiť screenshots + LLM (OpenAI API) na rozhodovanie",
+      "použiť pyautogui na ovládanie myši/klávesnice"
+    ],
+    "corrections": [
+      "užívateľ požiadal o zjednodušenie meta-prompt flow a futuristický dizajn",
+      "užívateľ chcel, aby systém sám vyvážil meta-prompt a reportoval"
+    ],
+    "preferences": [
+      "futuristický Apple X dizajn",
+      "minimalistický a dark mode",
+      "slovenský jazyk"
+    ],
+    "outcome": "success",
+    "outcome_detail": "appka bola hotová a nasadená, frontend a backend fungujú, agent je pripravený na integráciu",
+    "tech_stack": [
+      "FastAPI",
+      "React",
+      "SQLite",
+      "pyautogui",
+      "OpenAI API"
+    ],
+    "app_requirements": [
+      "meta-prompt management",
+      "agent control",
+      "activity dashboard",
+      "report generation"
+    ],
+    "patterns": [
+      "užívateľ preferuje jednoduché a intuitívne rozhranie",
+      "užívateľ sa zameriava na postupné ladenie a validáciu promptov"
+    ],
+    "session_id": "devin-3afa29d1141e4e47a7de4264383c63e8",
+    "date": "2026-02-23T12:29:14.555619Z",
+    "title": "autonomne ovladanie pocitaca",
+    "status_enum": "finished",
+    "pull_request": null
+  },
+  {
+    "project": "EUGIP",
+    "goals": [
+      "Analyze the specification document for EUGIP and provide comments and cost estimates.",
+      "Develop a fully automated platform for identifying, assessing, generating applications, and managing the lifecycle of EU grants."
+    ],
+    "decisions": [
+      "Remove dependency on Palantir and use a custom tech stack.",
+      "Focus on a full scope implementation rather than an MVP.",
+      "User will manage ML models and grant expertise."
+    ],
+    "corrections": [
+      "User corrected the scope from MVP to full implementation, indicating they want to cover the entire EU and later expand to the USA and other countries."
+    ],
+    "preferences": [
+      "User prefers a custom tech stack without Palantir.",
+      "User wants to maintain control over ML models and grant application processes."
+    ],
+    "outcome": "success",
+    "outcome_detail": "The platform was developed and deployed successfully, with a functioning backend and frontend. Initial data loading from EU portals is in progress.",
+    "tech_stack": [
+      "Kubernetes",
+      "PostgreSQL",
+      "FastAPI",
+      "React",
+      "LLM API (Anthropic Claude / OpenAI GPT-4)",
+      "Scraping tools"
+    ],
+    "app_requirements": [
+      "The system should scan EU portals for available grants.",
+      "It should present options and moderate user input to evaluate eligibility.",
+      "AI should generate and submit applications on behalf of the user."
+    ],
+    "patterns": [
+      "User prefers to delegate technical implementation while maintaining oversight on domain-specific knowledge.",
+      "User expresses a desire for detailed cost breakdowns and clear communication on project progress."
+    ],
+    "session_id": "devin-96605085851d4f459c0d301c116419e2",
+    "date": "2026-02-23T10:14:33.935203Z",
+    "title": "EUGIP",
+    "status_enum": "finished",
+    "pull_request": {
+      "url": "https://github.com/igmakam/monstrum/pull/2"
+    }
+  },
+  {
+    "project": "Byly.io",
+    "goals": [
+      "Analyze the technical specification of MONSTRUM OS and both repositories",
+      "Prepare a plan to achieve military-grade quality and Apple-level UX/UI",
+      "Rewrite the technical specification to address gaps and improve structure"
+    ],
+    "decisions": [
+      "Transition from Flask to FastAPI for asynchronous capabilities",
+      "Change from a monolith to a modular monolith architecture",
+      "Reduce the number of modules from 24 to 16 to eliminate duplicities and merge related functionalities"
+    ],
+    "corrections": [
+      "User corrected the timeout settings that were causing session interruptions",
+      "User requested a professional presentation version of the specification"
+    ],
+    "preferences": [
+      "User prefers a structured approach with a focus on security and modular design",
+      "User expressed a desire for a professional, presentable version of the technical specification"
+    ],
+    "outcome": "success",
+    "outcome_detail": "The technical specification was successfully rewritten and presented in a professional format. User was satisfied with the updates and requested further development phases.",
+    "tech_stack": [
+      "FastAPI",
+      "React",
+      "Tailwind CSS"
+    ],
+    "app_requirements": [
+      "Military-grade security features",
+      "Apple-level UX/UI",
+      "Investor access zone with KYC/AML onboarding",
+      "White-label automated sales platform"
+    ],
+    "patterns": [
+      "User frequently requested updates and clarifications during the session",
+      "User expressed impatience and a desire for rapid progress"
+    ],
+    "session_id": "devin-990fe7f60d404b9bab8c80d04c2fb65e",
+    "date": "2026-02-21T12:16:17.240702Z",
+    "title": "Byly.io",
+    "status_enum": "working",
+    "pull_request": {
+      "url": "https://github.com/igmakam/monstrum/pull/4"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "preferred_tech_stack": [
+    "React",
+    "Node.js",
+    "FastAPI",
+    "PostgreSQL",
+    "Supabase",
+    "OpenAI API",
+    "TensorFlow",
+    "HTML5",
+    "JavaScript",
+    "Tailwind CSS",
+    "SQLite",
+    "Kubernetes",
+    "Web Audio API",
+    "DeviceOrientation API",
+    "Capacitor"
+  ],
+  "coding_conventions": [],
+  "architectural_preferences": [
+    "Client-side architecture with persistent data storage",
+    "Full automation and integration with existing tools",
+    "Modular design with a focus on security"
+  ],
+  "communication_style": "User provides iterative feedback, requests clarifications, and emphasizes rapid progress.",
+  "frustrations": [
+    "Inaccuracies in domain availability",
+    "Session interruptions due to timeout settings",
+    "Manual processes that hinder automation"
+  ],
+  "what_works_well": [
+    "Seamless integration of features",
+    "Modern UI/UX design",
+    "Automation of tasks and processes"
+  ],
+  "work_patterns": [
+    "Frequent requests for visual and gameplay enhancements",
+    "Iterative testing and feedback",
+    "Desire for continuous improvement and simplification"
+  ],
+  "key_principles": [
+    "Prioritization of user experience and functionality",
+    "Preference for reliable and functional solutions over cheaper alternatives",
+    "Focus on automation and efficiency in processes"
+  ]
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2026-02-21T12:16:17.240702Z",
+    "session_id": "devin-990fe7f60d404b9bab8c80d04c2fb65e",
+    "project": "Byly.io",
+    "correction": "User corrected the timeout settings that were causing session interruptions"
+  },
+  {
+    "date": "2026-02-21T12:16:17.240702Z",
+    "session_id": "devin-990fe7f60d404b9bab8c80d04c2fb65e",
+    "project": "Byly.io",
+    "correction": "User requested a professional presentation version of the specification"
+  },
+  {
+    "date": "2026-02-23T10:14:33.935203Z",
+    "session_id": "devin-96605085851d4f459c0d301c116419e2",
+    "project": "EUGIP",
+    "correction": "User corrected the scope from MVP to full implementation, indicating they want to cover the entire EU and later expand to the USA and other countries."
+  },
+  {
+    "date": "2026-02-23T12:29:14.555619Z",
+    "session_id": "devin-3afa29d1141e4e47a7de4264383c63e8",
+    "project": "autonomne ovladanie pocitaca",
+    "correction": "užívateľ požiadal o zjednodušenie meta-prompt flow a futuristický dizajn"
+  },
+  {
+    "date": "2026-02-23T12:29:14.555619Z",
+    "session_id": "devin-3afa29d1141e4e47a7de4264383c63e8",
+    "project": "autonomne ovladanie pocitaca",
+    "correction": "užívateľ chcel, aby systém sám vyvážil meta-prompt a reportoval"
+  },
+  {
+    "date": "2026-02-24T05:03:49.791837Z",
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "project": "DomainFinder",
+    "correction": "User pointed out that domains offered were not actually available for sale, leading to the implementation of real WHOIS checks."
+  },
+  {
+    "date": "2026-02-24T05:03:49.791837Z",
+    "session_id": "devin-0c1118efb8a342608cc6206e70597ab4",
+    "project": "DomainFinder",
+    "correction": "User noted inaccuracies in domain availability, prompting further testing and adjustments."
+  },
+  {
+    "date": "2026-02-25T15:44:30.535187Z",
+    "session_id": "devin-de1460bfb9574a8e8baa9b05e22285f4",
+    "project": "App Store Analyzer",
+    "correction": "User requested a simplified ticket system for tracking issues"
+  },
+  {
+    "date": "2026-02-25T15:44:30.535187Z",
+    "session_id": "devin-de1460bfb9574a8e8baa9b05e22285f4",
+    "project": "App Store Analyzer",
+    "correction": "User wanted the dashboard to show low-hanging fruit opportunities automatically"
+  },
+  {
+    "date": "2026-02-27T18:34:01.444100Z",
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "project": "Arrow Swiper - Fidget Game",
+    "correction": "User requested a fingerprint swipe effect to be added"
+  },
+  {
+    "date": "2026-02-27T18:34:01.444100Z",
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "project": "Arrow Swiper - Fidget Game",
+    "correction": "User noted issues with music playback that needed fixing"
+  },
+  {
+    "date": "2026-02-27T18:34:01.444100Z",
+    "session_id": "devin-ae84dc3ab023492a8f124243bf5b0998",
+    "project": "Arrow Swiper - Fidget Game",
+    "correction": "User specified different reaction time limits based on difficulty"
+  },
+  {
+    "date": "2026-02-27T20:58:02.541096Z",
+    "session_id": "devin-abc7bdf330e54dbd8382a481d7a19a69",
+    "project": "plysiak-hra",
+    "correction": "User requested the game to be in English and for the plush toys to look more realistic."
+  },
+  {
+    "date": "2026-02-27T20:58:02.541096Z",
+    "session_id": "devin-abc7bdf330e54dbd8382a481d7a19a69",
+    "project": "plysiak-hra",
+    "correction": "User criticized the initial destruction effects as being too basic and requested more dramatic effects."
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "correction": "User requested changes to controls for mobile to be more intuitive"
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "correction": "User wanted the safe zone to be centered on the gauge"
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "correction": "User requested a countdown timer and progressive difficulty adjustments every 5 seconds"
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "correction": "User asked for the danger bar to always be visible"
+  },
+  {
+    "date": "2026-02-28T07:07:08.850632Z",
+    "session_id": "devin-4c2603e6de774c46b42a3192deef4c05",
+    "project": "Spin Control Reaction Game",
+    "correction": "User requested a more visually appealing design in line with Apple aesthetics"
+  },
+  {
+    "date": "2026-03-01T20:06:52.650659Z",
+    "session_id": "devin-0ae0d2b08532489d99b8e4374761a9a6",
+    "project": "Spojiť body s reakčným časom",
+    "correction": "Zmeny v dizajne na Apple iOS 2026 štýl"
+  },
+  {
+    "date": "2026-03-01T20:06:52.650659Z",
+    "session_id": "devin-0ae0d2b08532489d99b8e4374761a9a6",
+    "project": "Spojiť body s reakčným časom",
+    "correction": "Zjemnenie hodnotenia reakčného času"
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "correction": "user requested that when hit, only 50% of weapon ability is lost instead of the entire weapon"
+  },
+  {
+    "date": "2026-03-01T20:12:22.607496Z",
+    "session_id": "devin-d93b74a2e05f4836a163097409eb0ada",
+    "project": "jednoducha emulacna hra raketka asteroidy",
+    "correction": "user requested centered HUD for all text elements"
+  },
+  {
+    "date": "2026-03-01T20:37:10.716470Z",
+    "session_id": "devin-02c3af24fa1747bdbe0c968517088fc5",
+    "project": "Plasma Disk – Skill Survival",
+    "correction": "User requested the addition of robotic enemies and faster asteroids, as well as a difficulty selection feature."
+  },
+  {
+    "date": "2026-03-02T08:14:30.379613Z",
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "project": "HELIXA",
+    "correction": "User pointed out the need for a secure way to handle the OpenAI API key, which was initially required to be input by the user."
+  },
+  {
+    "date": "2026-03-02T08:14:30.379613Z",
+    "session_id": "devin-ef03254abe0542ea9db9a0a71f0e5e2d",
+    "project": "HELIXA",
+    "correction": "User expressed concerns about data loss when switching browsers due to localStorage limitations."
+  },
+  {
+    "date": "2026-03-03T06:26:08.062073Z",
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "project": "Hover Shard",
+    "correction": "User requested removal of space bar control"
+  },
+  {
+    "date": "2026-03-03T06:26:08.062073Z",
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "project": "Hover Shard",
+    "correction": "User requested the crystal to be replaced with a rocket and added asteroids"
+  },
+  {
+    "date": "2026-03-03T06:26:08.062073Z",
+    "session_id": "devin-bcb617456ceb45cdaf580f36b7596955",
+    "project": "Hover Shard",
+    "correction": "User reported issues with the game not reflecting changes"
+  },
+  {
+    "date": "2026-03-03T19:55:58.866444Z",
+    "session_id": "devin-08308ab27f4a49ed80665fddc1c46cd2",
+    "project": "Family Task Tracker",
+    "correction": "User corrected the login method for Supabase from email/password to GitHub authentication"
+  },
+  {
+    "date": "2026-03-03T19:55:58.866444Z",
+    "session_id": "devin-08308ab27f4a49ed80665fddc1c46cd2",
+    "project": "Family Task Tracker",
+    "correction": "User requested to remove email/password login requirement for the app"
+  },
+  {
+    "date": "2026-03-04T10:56:14.707789Z",
+    "session_id": "devin-1d192d6d085a47108e238ae77976a2c0",
+    "project": "AutoLauncher Pro",
+    "correction": "User clarified that the app should have full control over the computer for automated app launches and integrations"
+  },
+  {
+    "date": "2026-03-04T10:56:14.707789Z",
+    "session_id": "devin-1d192d6d085a47108e238ae77976a2c0",
+    "project": "AutoLauncher Pro",
+    "correction": "User rejected the idea of manual consulting and emphasized the need for full automation"
+  }
+]
